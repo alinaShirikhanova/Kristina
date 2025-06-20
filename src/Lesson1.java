@@ -1,24 +1,35 @@
 public class Lesson1 {
 
     public static void main(String[] args) {
-//        System.out.println("Hello world!");
-//        System.out.println("Hello my friends");
-//        System.out.println("Hello world!");
-//        System.out.print("Hello my friends");
-//        Однострочный (Первый вид комментариев)
+
+        // Ниже — закомментированные строки, они не выполняются:
+        // System.out.println("Hello world!");
+        // System.out.println("Hello my friends");
+        // System.out.println("Hello world!");
+        // System.out.print("Hello my friends");
+
+        // Это однострочный комментарий — начинается с //
+        // Используется для кратких пояснений к коду
+
         /*
-         * Многострочный комментарий
-         * Многострочный комментарий
-         * Многострочный комментарий
-         * Многострочный комментарий
+         * Это многострочный комментарий.
+         * Он начинается с /* и заканчивается на * /
+         * Удобен для объяснения больших блоков кода.
          */
-//        System.out.print("Hello world!\nHello my friends!");
-        System.out.println(5 + 5);
-        // Конкатенация
-        System.out.println("5" + "5");
-        System.out.println("Результат: " + 10);
-        System.out.println("Результат: " + (10 + 5));
+
+        // System.out.print("Hello world!\nHello my friends!");
+        // Строка выше не выводится, так как она закомментирована
+
+        // Сложение чисел — результат будет 10
+        System.out.println(5 + 5);  // Выведет: 10
+
+        // Конкатенация строк — объединение двух строк "5" и "5"
+        System.out.println("5" + "5");  // Выведет: 55 (как строка)
+
+        // Конкатенация текста и числа — число преобразуется в строку
+        System.out.println("Результат: " + 10);  // Выведет: Результат: 10
+
+        // Сначала считается выражение в скобках (10 + 5 = 15), потом соединяется со строкой
+        System.out.println("Результат: " + (10 + 5));  // Выведет: Результат: 15
     }
-}
-{
 }
